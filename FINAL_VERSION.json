@@ -1,0 +1,210 @@
+{
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "project": "语音采集及其降噪系统设计",
+  "frozen_at": "2026-10-13T16:55:06.534261+09:00",
+  "validation": {
+    "existing_tests_passed": 19,
+    "python": "3.11.15",
+    "environment": "yolo",
+    "qt_platform": "offscreen",
+    "real_microphone_or_model_inference_revalidated": false
+  },
+  "files": {
+    ".gitignore": {
+      "bytes": 167,
+      "sha256": "f373c68f8dedd977af46eefdf9aa8db70d1bfb191b1b8e5910fa74c2c61b9605"
+    },
+    "COPYRIGHT.md": {
+      "bytes": 672,
+      "sha256": "a40afad66dee569334b9e737d726798e4711a603de8fde9b7a904fd0c9527f44"
+    },
+    "LICENSE": {
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    "PROJECT_INTRODUCTION.md": {
+      "bytes": 7448,
+      "sha256": "71278ea2597b30d5b0c7a21f9078e2173357b1a17177cd31a6ba066820fe64a5"
+    },
+    "README.md": {
+      "bytes": 2152,
+      "sha256": "716bfb50e872174b93ae9c126b41de5eeef8cc4307c6af4be2ccfa534fb0338a"
+    },
+    "THIRD_PARTY.md": {
+      "bytes": 460,
+      "sha256": "c1f84f468efe97b062ad98977061bdcde1ed45548e95a28fbf8d5b0dc6bba4b9"
+    },
+    "ai/__init__.py": {
+      "bytes": 144,
+      "sha256": "729ad25639bf030915b58bc39d0008233e0679f3a7e354d9042ee86238a53b7e"
+    },
+    "ai/cuda_runtime.py": {
+      "bytes": 1071,
+      "sha256": "e1873693b4129913d3910bae0d6a0acbb3c09affbeece2d5af9950076f2f4cc6"
+    },
+    "ai/download_models.py": {
+      "bytes": 910,
+      "sha256": "7c9bb34ec8527a1707d73ee328e058cc35714a43a80403516847a8c010fe297f"
+    },
+    "ai/speech_segmenter.py": {
+      "bytes": 2641,
+      "sha256": "a643081faf2b363aca6ccaae24297d3b08cb28e37b2cf58f1dd0d285e332334c"
+    },
+    "ai/translation_worker.py": {
+      "bytes": 9658,
+      "sha256": "ca0e42a8a4a4129f45349825e60699ed8a57d872023e3037489baab5a1fbd31e"
+    },
+    "analysis/analysis_tools.py": {
+      "bytes": 1111,
+      "sha256": "cf121418d7778eaa661bb655b2dd3cc82207f35b39f1d7eabde574e4a08a4361"
+    },
+    "audio/audio_tools.py": {
+      "bytes": 3710,
+      "sha256": "d94aa8932df0c045143d60f79ddc449bc58549b19607f3654dc5672297cbc819"
+    },
+    "config.py": {
+      "bytes": 162,
+      "sha256": "87e49ef0212c7606a5537cb023f39829c987eb1c4b6827ed1abb5ab9047b3441"
+    },
+    "denoise/filters.py": {
+      "bytes": 3169,
+      "sha256": "fc80fe03027dee1f66f989e3356f60e76fb913f01c84dda4c68365ac085d482f"
+    },
+    "enhancement/scene_modes.py": {
+      "bytes": 1575,
+      "sha256": "b7216c0b3a988d1c3fc5a6f1e2102bc0938346f035dda49838de13a448954242"
+    },
+    "gui/icons/back.svg": {
+      "bytes": 218,
+      "sha256": "761baae88c76475c1e22cbc4cdf6c46a0f4c6d2275eb113a43046f072b6b1255"
+    },
+    "gui/icons/chart.svg": {
+      "bytes": 224,
+      "sha256": "a491cb2ac2a8019af36e27a94a397e5b13ab04267cc48194d19617a8bfb5c2c1"
+    },
+    "gui/icons/chevron-down.svg": {
+      "bytes": 211,
+      "sha256": "0ec2ac6642ff488218594806595f937680cb7a5832c9b76a4c77ac00bc30a3f0"
+    },
+    "gui/icons/export.svg": {
+      "bytes": 231,
+      "sha256": "cf7bb13b8004a54a8e1d201f33a44b1b5ac5b230054c793f9f8ff5b16e5a1f59"
+    },
+    "gui/icons/forward.svg": {
+      "bytes": 223,
+      "sha256": "99645b135a037966e1be3a61af2306d057467c019fa1a54599805f15d5b9f792"
+    },
+    "gui/icons/headphones.svg": {
+      "bytes": 319,
+      "sha256": "4435ecf6bad873f4061a67c3aaf8f5f4a2984a88f81586688c4cd41d3e56e9f9"
+    },
+    "gui/icons/languages.svg": {
+      "bytes": 270,
+      "sha256": "5f591ba47b17f1b7334900a323ce4a2fcf17d0979e6bf63abf055f14440a695d"
+    },
+    "gui/icons/layers.svg": {
+      "bytes": 248,
+      "sha256": "03505a0aea968b46c2b628940f8cf57bf7de87549e24dca470923fb2e37d5c3a"
+    },
+    "gui/icons/maximize.svg": {
+      "bytes": 233,
+      "sha256": "9e684166d8f0c8330d4a10a9ce51851b7da3bea43cef528251decc8eeb345cb4"
+    },
+    "gui/icons/mic-white.svg": {
+      "bytes": 284,
+      "sha256": "930d54dd5ee1b16031a7cdce53e0b72092a86c2262590905264f283efb5a991c"
+    },
+    "gui/icons/mic.svg": {
+      "bytes": 284,
+      "sha256": "41b49def6ce37a228dcea16f32463139fa6d7a0e3173156b8cede28efe355c53"
+    },
+    "gui/icons/music.svg": {
+      "bytes": 300,
+      "sha256": "cd9d1b98e9118398ee097eb46e3be43bf9be0e72b46110b2841a283b74021a2c"
+    },
+    "gui/icons/noise.svg": {
+      "bytes": 229,
+      "sha256": "8f8246f91037bb1d526f563b2844331a0e1b62040b7c71ae08608ba0bf42c612"
+    },
+    "gui/icons/pause.svg": {
+      "bytes": 229,
+      "sha256": "6a6899ffb22fbfce16d34c5e48f1bda37ba1526c5c95a9094661908d4c21a224"
+    },
+    "gui/icons/play-white.svg": {
+      "bytes": 212,
+      "sha256": "2079a3a09d866d4ead9686fb39256063da9f15a0b077ff4e37ce4ee05d7ef638"
+    },
+    "gui/icons/play.svg": {
+      "bytes": 212,
+      "sha256": "5a7b33c39408ba814feaf8b3daf6165710242b7d76d94e94e9fba77efb690a23"
+    },
+    "gui/icons/rewind.svg": {
+      "bytes": 224,
+      "sha256": "457aa1f30fe6fa9c19a44dc8e468669f624bd71f1682e2ee1f6d80b96225611b"
+    },
+    "gui/icons/save.svg": {
+      "bytes": 240,
+      "sha256": "f891d9f187be95a029076da4ff6aabe3e1dff486684409d240f9ccc45a3b35b2"
+    },
+    "gui/icons/sliders.svg": {
+      "bytes": 269,
+      "sha256": "d90116163b61c425c1a063d26972cc4084588bc9aa0ac367972104a14ebee038"
+    },
+    "gui/icons/stop-white.svg": {
+      "bytes": 234,
+      "sha256": "2ff16d286e17e1c92380aafaf0e6e3d1603aed2a756820cc369e2b90f39bdc3b"
+    },
+    "gui/icons/stop.svg": {
+      "bytes": 234,
+      "sha256": "3cb51338b640a476c5898de16463e1c44a9dd78599a2ee6288bf2f4b45031d81"
+    },
+    "gui/icons/trees.svg": {
+      "bytes": 257,
+      "sha256": "34869be37069aecff80fc45cc154c8d43e354f18eb01aeb7152c69214a0fdb3e"
+    },
+    "gui/icons/upload.svg": {
+      "bytes": 231,
+      "sha256": "6302b3a89571fda8c820ddad3842f36378bf992e4fd17380f94f2e9accaca91f"
+    },
+    "gui/icons/waveform.svg": {
+      "bytes": 233,
+      "sha256": "19217bd68ade697a1cc7a0eb97bbbac4cb50965eb20af925f77407279b766fe3"
+    },
+    "gui/main_window.py": {
+      "bytes": 70205,
+      "sha256": "0d6abf42161f8e3f697f05c429fa30986b8cc36f20725f074e7642915a2021a4"
+    },
+    "main.py": {
+      "bytes": 337,
+      "sha256": "734fa3bdb0a21815da24fd2012d41e811cdfc479c8d7241ebd11c286688a5100"
+    },
+    "noise/noise_tools.py": {
+      "bytes": 892,
+      "sha256": "1e50a99eec32fd9dc46904acff41da40101e16a828d84da38ee779a87b08b7b3"
+    },
+    "requirements-ai.txt": {
+      "bytes": 65,
+      "sha256": "0e49bc7513fa3e9bc5e1b0abd01232038b5fe9ccefee29ca47b4cc7894f3e98a"
+    },
+    "requirements-dev.txt": {
+      "bytes": 34,
+      "sha256": "1438527233ce7beb1cdf4a046b8b5d38f140bd77217ef4df17d5592989d3ec15"
+    },
+    "requirements.txt": {
+      "bytes": 116,
+      "sha256": "9df452ff209ad162c4e7976ae9d5e6a162ee5e6ff86215957f2b5e51684f457c"
+    },
+    "tests/test_ai_integration.py": {
+      "bytes": 13286,
+      "sha256": "028a81146647020b85d891b12f00a18294e5becabc8553a9ad4333eb225efa24"
+    },
+    "tests/test_speech_segmenter.py": {
+      "bytes": 1973,
+      "sha256": "490f224a502b92d0bc5ca9e8e77a605e78fc6c95dfc000aca775b96d3e289713"
+    }
+  },
+  "author": "cin330",
+  "license": "AGPL-3.0-only",
+  "application_python_files_verified_identical_except_copyright_headers": 15
+}
