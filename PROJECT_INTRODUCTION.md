@@ -118,3 +118,19 @@ flowchart LR
 三个项目均以 `v1.0.0` 冻结；本次验证合计 76 项现有测试通过。各仓库的 `FINAL_VERSION.json` 记录文件 SHA-256、验证信息和冻结时间。原始业务逻辑保持一致，仅增加版权注释、安装说明与发布文档。
 
 Copyright (c) 2026 cin330，限作者原创部分。项目以 AGPL-3.0 发布：允许按许可证使用、修改和分发；必须保留版权与许可证声明，并履行相应源码提供义务。第三方组件、模型及示例文件的权利仍归各自权利人，详见各仓库 `THIRD_PARTY.md`。完整许可证见 `LICENSE`。
+
+## 视频演示
+
+### 语音采集与降噪系统（60 秒）
+
+https://github.com/user-attachments/assets/f173614b-f404-471e-9a88-f384cf50547b
+
+### 交通视频监控系统（60 秒）
+
+https://github.com/user-attachments/assets/b97ec3a9-dacd-4175-a89a-6a5060686186
+
+### 视网膜血管图像分割系统（59 秒）
+
+https://github.com/user-attachments/assets/efb1fa95-23fe-4446-aa28-7581bd705780
+
+视频文件已上传 GitHub，并保存在各仓库 `demo/demo.mp4`。仅恢复最终成片、封面和字幕；大量制作素材仍不纳入仓库。

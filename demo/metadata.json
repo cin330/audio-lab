@@ -1,0 +1,13 @@
+{
+  "title": "语音采集与降噪系统",
+  "original_filename": "AudioLab_60秒完整功能演示.mp4",
+  "duration_seconds": 60.0,
+  "video_codec": "h264",
+  "width": 1920,
+  "height": 1080,
+  "bytes": 4316036,
+  "sha256": "715c00bf495c7f27d89254d6cba53164302651138e883c589cff904d76f89751",
+  "full_decode_passed": true,
+  "copyright": "2026 cin330",
+  "license": "AGPL-3.0-only"
+}
